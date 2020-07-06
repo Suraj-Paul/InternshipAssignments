@@ -1,0 +1,121 @@
+.imgcontainer{
+    background: url('foodWallpaper.png');
+    border-style: solid ;
+    border-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    margin: auto;
+}
+#logo{
+    background: url('chef1.png');
+    text-align: center;
+    font-weight: bold;
+    background-color:white;
+    height:150px;
+    width:150px;
+    margin:auto;
+    border-radius:50%;
+    margin-top: 100px ;
+    margin-bottom: 80px;
+    padding: 5px;
+}
+#heading{
+    text-align:center;
+    color:white;
+    font-size:36px;
+
+}
+.locationselector{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;   
+}
+.dropdown{
+    width:250px;
+    height:45px;
+    font-size: 20px;
+    border: none;
+    border-radius: 25px 0px 0px 25px;
+    padding-left: 1%;
+    color: #d5743e;
+}
+.restaurantsinput{
+    border: none;
+    border-radius: 0px 25px 25px 0px;
+    width:370px;
+    height:43px;
+    font-size: 20px;
+    padding-left: 2%;
+    margin-left:-5px
+    
+}
+::placeholder{
+    color:#d5743e ;
+}
+.quickSearchContainer{
+    margin-left:115px;
+    margin-top:50px;
+}
+.quickSearchHeading{
+    text-align: left;
+    color: #192f60;
+    font-size:30px;
+    line-height: 1.5;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.quickSearchSubheading{
+    font-size: 20px;
+    color: gray;
+}
+.titleContainer{
+    box-shadow: 0 3px 6px black;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width:400px;
+    height: 170px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 10px;
+}
+.titleComponent1{
+    width:50%;
+    float: left;
+}
+.titleComponent2{
+    width:50%;
+    float: left;
+    margin-top: 20px;
+}
+.componentHeading{
+    font-size: 19px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.componentSubHeading{
+    text-align: center;
+}
+img{
+    border-radius: 10px 0px 0px 10px;
+    height: 170px;
+}
+.serchiconcontainer{
+    display: inline-block;
+}
+.searchbutton{
+    height: 46px;
+    width: 83px;
+    margin: auto;
+    margin-top: 4px;
+    /* padding-top: 69%; */
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: -15px;
+    border: none;
+    color: blueviolet;
+    margin-left: -4px;
+}
+
