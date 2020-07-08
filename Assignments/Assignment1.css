@@ -1,0 +1,227 @@
+.titlebar{
+    margin: auto;
+    padding: 10px;
+    background-color: red;
+    height: 60px;  
+}
+
+#logo{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: white;
+    margin-top: -20px;
+    margin-left: 22px;
+    text-align: center;
+}
+.Login{
+    height: 40px;
+    width: 70px;
+    background: red;
+    float: right;
+    margin-top: -40px;
+    margin-right: 155px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: monospace;
+}
+.Creataccount{  
+    height: 40px;
+    width: 140px;
+    background: red;
+    float: right;
+    margin-top: -40px;
+    text-align: center;
+    border-radius: 10px;
+    border-color: white;
+    border-width: 1.3px;
+    padding-top: 5px;
+    color: white;
+    font-weight: 500;
+    font-family: monospace;
+    font-size: 18px;
+}
+.imgContainer{
+    background: url("breakfast.png");
+    height: 540px;
+    width: auto;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.clickImg{
+    height: 40px;
+    width: 195px;
+    background: white;
+   /* position: absolute;*/
+    /*margin-top: 500px;*/
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    opacity: 50%;
+}
+#clickme{
+    font-weight: bold;
+    color: #000000;
+}
+.Heading{
+    width: 298px;
+    height: 43px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight:bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgb(14, 14, 99);
+}
+/*.Slider{
+    margin-top: 20px;
+    line-height: 25px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    color: darkblue;
+
+}
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0px;
+    border-top: 5px solid red;
+}
+.About{
+    width: 181px;
+    height: 31px;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #34178b
+
+}
+.cuisine{
+    margin-top: 20px;
+    line-height: 25px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    color: darkblue;
+}
+.CuisinComponent{
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: 500;
+    color: #34178b;
+    margin-top: 6px;
+}
+.AvgCost{
+    width: 181px;
+    height: 31px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 12px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #34178b
+    
+
+}
+.AvgComponent{
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: 500;
+    color: #34178b;
+    margin-top: 6px;
+}*/
+main {
+	max-width: 1200px;
+	margin: auto;
+}
+.tabs {
+	position: relative;
+	clear: both;
+  color:#192f60;
+}
+
+.tabs .tab {
+	float: left;
+}
+
+.tabs .tab .content {
+	display: none;
+	position: absolute;
+	background-color: white;
+	left: 0px;
+	width: 100%;
+	padding: 20px 20px 40px 20px;
+	border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.checkboxtab {
+	display: none;
+}
+
+.tab label {
+	/* margin-right: 10px; */
+	/* position: relative; 
+	this is only for z-index*/
+	display: inline-block;
+	font-size: 19px;
+	font-weight: 500;
+	padding: 20px;
+}
+
+.checkboxtab:checked~label {
+	font-weight: bold;
+	border-bottom: 1px solid orangered;
+	/* z-index: 1; */
+}
+
+.checkboxtab:checked~.content {
+	display: block;
+}
+
+.content h3 {
+	margin: 30px 0;
+}
+
+.content p {
+	margin-bottom: 50px;
+}
+
+.content h4 {
+	font-weight: bold;
+	margin: 20px 0;
+}
+
+.contact-number p {
+	color: #f67082;
+}
+
+.address h2 {
+	margin: 30px 0;
+	font-weight: 900;
+	font-size: 18px;
+}
