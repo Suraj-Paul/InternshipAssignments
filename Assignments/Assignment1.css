@@ -1,28 +1,32 @@
 .titlebar{
     margin: auto;
-    padding: 10px;
+    padding: 15px;
     background-color: red;
-    height: 60px;  
+    height: 70px;  
 }
 
 #logo{
-    height: 40px;
-    width: 40px;
+    background: url('chef1.png');
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
-    background: white;
-    margin-top: -20px;
-    margin-left: 22px;
-    text-align: center;
+    margin-left: 20px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 60px;
 }
 .Login{
     height: 40px;
     width: 70px;
     background: red;
     float: right;
-    margin-top: -40px;
+    margin-top: -55px;
     margin-right: 155px;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 8px;
     border-radius: 10px;
     border: none;
     color: white;
@@ -30,46 +34,81 @@
     font-weight: 500;
     font-family: monospace;
 }
+.Login:hover{
+    background: #e43030;
+}
+.Login:focus{
+    outline: none;
+}
 .Creataccount{  
     height: 40px;
     width: 140px;
-    background: red;
+    background: #e73838;
     float: right;
-    margin-top: -40px;
+    margin-top: -55px;
     text-align: center;
     border-radius: 10px;
     border-color: white;
     border-width: 1.3px;
-    padding-top: 5px;
+    padding-top: 8px;
     color: white;
     font-weight: 500;
     font-family: monospace;
     font-size: 18px;
+    border: none;
 }
-.imgContainer{
-    background: url("breakfast.png");
-    height: 540px;
-    width: auto;
+.Creataccount:hover{
+    box-shadow: 0px 0px 1px 0px black;
+}
+.Creataccount:focus{
+    outline: none;
+}
+
+#myCarousel{
+    height: 526px;
+    width: 935px;
     margin: auto;
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
-.clickImg{
+.carousel-inner{
+    height: 526px;
+    width: 935px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.container{
+    width: 935px;
+
+}
+.ClickContainer{
+    position: relative;
+}
+.ClickContainer:hover{
+    box-shadow: 0px 0px 1px 0px black;
+}
+.clickme{
+    font-weight: bold;
+    color: #000000;
     height: 40px;
     width: 195px;
     background: white;
-   /* position: absolute;*/
-    /*margin-top: 500px;*/
+    position: relative;
+    left:725pxpx;
+    top: 490px;
     margin: auto;
     border-radius: 10px;
     text-align: center;
     padding: 10px;
     opacity: 50%;
 }
-#clickme{
-    font-weight: bold;
-    color: #000000;
+.clickme:hover{
+     box-shadow:  0px 0px 2px 2px black
+}
+.clickme:focus{
+    outline: none;
 }
 .Heading{
     width: 298px;
@@ -84,77 +123,7 @@
     text-align: left;
     color: rgb(14, 14, 99);
 }
-/*.Slider{
-    margin-top: 20px;
-    line-height: 25px;
-    font-family: Poppins;
-    font-size: 20px;
-    font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-    color: darkblue;
 
-}
-{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: 0px;
-    border-top: 5px solid red;
-}
-.About{
-    width: 181px;
-    height: 31px;
-    font-family: Poppins;
-    font-size: 25px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
-    text-align: left;
-    color: #34178b
-
-}
-.cuisine{
-    margin-top: 20px;
-    line-height: 25px;
-    font-family: Poppins;
-    font-size: 20px;
-    font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-    color: darkblue;
-}
-.CuisinComponent{
-    font-size: 18px;
-    font-family: monospace;
-    font-weight: 500;
-    color: #34178b;
-    margin-top: 6px;
-}
-.AvgCost{
-    width: 181px;
-    height: 31px;
-    font-family: Poppins;
-    font-size: 20px;
-    font-weight: 600;
-    margin-top: 12px;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
-    text-align: left;
-    color: #34178b
-    
-
-}
-.AvgComponent{
-    font-size: 18px;
-    font-family: monospace;
-    font-weight: 500;
-    color: #34178b;
-    margin-top: 6px;
-}*/
 main {
 	max-width: 1200px;
 	margin: auto;
@@ -168,7 +137,6 @@ main {
 .tabs .tab {
 	float: left;
 }
-
 .tabs .tab .content {
 	display: none;
 	position: absolute;
@@ -178,35 +146,26 @@ main {
 	padding: 20px 20px 40px 20px;
 	border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
-
 .checkboxtab {
 	display: none;
 }
-
 .tab label {
-	/* margin-right: 10px; */
-	/* position: relative; 
-	this is only for z-index*/
 	display: inline-block;
 	font-size: 19px;
 	font-weight: 500;
-	padding: 20px;
+    padding: 20px;
+    margin-bottom: 0px;
 }
-
 .checkboxtab:checked~label {
 	font-weight: bold;
 	border-bottom: 1px solid orangered;
-	/* z-index: 1; */
 }
-
 .checkboxtab:checked~.content {
 	display: block;
 }
-
 .content h3 {
 	margin: 30px 0;
 }
-
 .content p {
 	margin-bottom: 50px;
 }
@@ -222,6 +181,7 @@ main {
 
 .address h2 {
 	margin: 30px 0;
-	font-weight: 900;
+	font-weight: bold;
 	font-size: 18px;
 }
+
